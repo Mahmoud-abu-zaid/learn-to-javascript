@@ -75,3 +75,15 @@ function studint(StudentGrade) {
 studint(85)
 //******************************
 console.log("***********************");
+
+function timesFive(number){
+  return number *5
+}
+let value=timesFive(5)
+console.log(value)
+console.log(--value)
+console.log(++value)
+console.log(++value)
+console.log(Math.sqrt(value))
+console.log(Math.pow(value,2))
+
