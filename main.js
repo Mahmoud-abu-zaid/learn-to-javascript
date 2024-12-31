@@ -1,4 +1,5 @@
 // if condition
+/*
 let grade = "110";
 if (grade < 50) {
   console.log("Z");
@@ -34,3 +35,43 @@ if(age<=18){
 else{
   console.log("You are a minor")
 }
+  */
+
+//function
+function myName(name) {
+  console.log((name = "Mahmoud abu zaid"));
+}
+myName();
+
+console.log("***********************");
+
+//*******************************
+
+function data(name, age, email, password) {
+  console.log(`my name is ${name}`);
+  console.log(`my age is ${age}`);
+  console.log(`my email is ${email}`);
+  console.log(`my password is ${password}`);
+}
+console.log("enter your data");
+data("mahmoud", 22, "mahmoud@gmail******", 123456789);
+
+//******************************
+console.log("***********************");
+//if condition and function
+function studint(StudentGrade) {
+  if (StudentGrade >= 85 ) {
+    console.log("Excellent");
+  } else if (StudentGrade >= 75) {
+    console.log("very good");
+  } else if (StudentGrade >= 65) {
+    console.log("good");
+  } else if (StudentGrade >= 50) {
+    console.log("Acceptable");
+  } else {
+    console.log("Please enter the correct score");
+  }
+}
+studint(85)
+//******************************
+console.log("***********************");
